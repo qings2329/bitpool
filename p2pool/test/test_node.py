@@ -49,7 +49,7 @@ class bitcoind(object): # can be used as p2p factory, p2p protocol, or rpc jsonr
     # rpc jsonrpc proxy
     
     def rpc_help(self):
-        return '\ngetblock '
+        return '\nhelp '
     
     def rpc_getblock(self, block_hash_hex):
         block_hash = int(block_hash_hex, 16)
